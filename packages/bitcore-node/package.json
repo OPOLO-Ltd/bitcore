@@ -74,6 +74,8 @@
     "typescript-eslint-parser": "^15.0.0"
   },
   "dependencies": {
+    "@dashevo/dashcore-lib": "^0.17.3",
+    "@dashevo/dashcore-p2p": "git+https://github.com/OPOLO-Ltd/dashcore-p2p.git",
     "JSONStream": "~1.3.1",
     "async": "^2.5.0",
     "bitcore-client": "^8.3.0",

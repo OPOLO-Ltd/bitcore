@@ -1,6 +1,7 @@
 import { BTCStateProvider } from './btc/btc';
 import { BCHStateProvider } from './bch/bch';
 import { LTCStateProvider } from './ltc/ltc';
+import { DASHStateProvider } from './dash/dash';
 import { ETHStateProvider } from './eth/eth';
 import { BATStateProvider } from './erc20/tokens/bat';
 import { CSP } from '../../types/namespaces/ChainStateProvider';
@@ -10,6 +11,7 @@ const services: CSP.ChainStateServices = {
   BTC: new BTCStateProvider(),
   BCH: new BCHStateProvider(),
   LTC: new LTCStateProvider(),
+  DASH: new DASHStateProvider(),
   ETH: new ETHStateProvider(),
   BAT: new BATStateProvider()
 };
